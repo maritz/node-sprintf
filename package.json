@@ -9,6 +9,11 @@
         "lib": "./lib"
     },
     "description": "Sprintf() for node.js",
-    "main": "./lib/sprintf"
+    "main": "./lib/sprintf",
+    "homepage": "https://github.com/maritz/node-sprintf",
+    "repository": {
+        "type": "git",  
+        "url": "https://github.com/maritz/node-sprintf.git"
+    }
 }
 
