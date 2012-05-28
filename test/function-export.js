@@ -1,5 +1,9 @@
 var sprintf = require(__dirname + '/..');
 
-sprintf('Hallo %s!', 'Welt');
-sprintf.sprintf('Hallo %s!', 'Welt');
-sprintf.vsprintf('Hallo %s!', ['Welt']);
+exports['sprintf() export works'] = function(test) {
+	test.equal(sprintf('Hallo %s!', 'Welt'), 'Hallo Welt!');
+	test.equal(sprintf.sprintf('Hallo %s!', 'Welt'), 'Hallo Welt!');
+	test.equal(sprintf.vsprintf('Hallo %s!', ['Welt']), 'Hallo Welt!');
+
+	test.done();
+};
