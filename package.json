@@ -15,6 +15,7 @@
         "type": "git",  
         "url": "https://github.com/maritz/node-sprintf.git"
     },
+    "license": "BSD-3-Clause",
     "scripts": {
         "test": "nodeunit test/function-export.js"
     },
