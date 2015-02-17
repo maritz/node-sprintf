@@ -26,8 +26,8 @@ There is also a [built-in util.format](http://nodejs.org/api/util.html#util_util
 
 Works exactly like http://www.diveintojavascript.com/projects/javascript-sprintf, except that it exports those two functions:
 
-    sprintf = require('sprintf').sprintf;
-    vsprintf = require('sprintf').vsprintf;
+    sprintf = require('sprintf-js').sprintf;
+    vsprintf = require('sprintf-js').vsprintf;
 
 Have fun!
 
